@@ -1,160 +1,234 @@
 <!DOCTYPE html>
 <html>
-<head>
-<%- include('../layouts/header')%>
-  <link rel="stylesheet" href="css/style.css">
+  <head>
+    <%- include('../layouts/header')%>
+    <link rel="stylesheet" href="css/style.css" />
     <title>My Home Page</title>
-</head>
-<body>
-    <header>
+  </head>
+  <body>
     <%- include('../layouts/navbar')%>
-    </header>
-  <!-- Showcase -->
+
+    <!-- Showcase -->
     <section
-      class="bg-dark text-light p-5 p-lg-0 pt-lg-5  pt-sm-5 text-center text-sm-start"
+      class="bg-dark text-light p-5 p-lg-0 pt-lg-5 pt-sm-5  text-center text-sm-start"
     >
       <div class="container">
         <div class="d-sm-flex align-items-center justify-content-between">
           <div>
-            <h1>Welcome to<span class="text-warning"> Congolaise Community </span></h1>
+            <h1>
+              Welcome to<span class="text-warning"> Congolaise Community </span>
+            </h1>
             <p class="lead my-4">
-              We are here for you and we focus on briging together our Congolaise Community.
-              we know that you need help, direction, information guidence in order for you to live in paix in the United 
-              Stat of Amerca that why we are here.
-             
+              We are here for you and we focus on briging together our
+              Congolaise Community. we know that you need help, direction,
+              information guidence in order for you to live in paix in the
+              United Stat of Amerca that why we are here.
             </p>
-            <button class="btn btn-primary btn-lg " data-bs-toggle = "modal" data-bs-target="#enroll">Join the Community</button>
+            <button
+              class="btn btn-primary btn-lg"
+              data-bs-toggle="modal"
+              data-bs-target="#enroll"
+            >
+              Join the Community
+            </button>
           </div>
           <img
-            class="img-fluid w-50 d-none d-sm-block"
+            class="img-fluid w-50 d-none d-md-block"
             src="https://t3.ftcdn.net/jpg/07/03/02/16/360_F_703021609_DFtfltSiVqCLrvfEfFOWc7EKYsgzLqgT.jpg"
             alt=""
           />
         </div>
       </div>
     </section>
-  <!--instrutor section-->
+    <!--instrutor section-->
     <section class="p-5 bg-primary" id="instructors">
       <div class="container">
         <h2 class="text-center text-white">Ours Instructors</h2>
         <p class="lead text-center text-white mb-5">
-          Our instructors all have 5+ years working as web developer in the industry
+          Our instructors all have 5+ years working as web developer in the
+          industry
         </p>
-        <div class="row g-4 text-">
+        <div class="row g-4 text-body lead">
           <div class="col-md-6 col-lg-3">
             <div class="card bg-light">
               <div class="card-body text-center">
-                <img src="https://randomuser.me/api/portraits/men/10.jpg" alt="" class="rounded-circle mb-3">
+                <img
+                  src="https://randomuser.me/api/portraits/men/10.jpg"
+                  alt=""
+                  class="rounded-circle mb-3"
+                />
                 <h3 class="card-title mb-3">Pirince Liyo</h3>
-              <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio necessitatibus illo esse voluptate modi perferendis!
-              </p>
-              <a href="#">
-                <i class="bi bi-twitter text-dark mx-1"></i>
-              </a>
-               <a href="#">
-                <i class="bi bi-facebook text-dark mx-1"></i>
-              </a>
-               <a href="#">
-                <i class="bi bi-linkedin text-dark mx-1"></i>
-              </a>
-               <a href="#">
-                <i class="bi bi-instagram text-dark mx-1"></i>
-              </a>
-              </div >
-
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Optio necessitatibus illo esse voluptate modi perferendis!
+                </p>
+                <a href="#">
+                  <i class="bi bi-twitter text-dark mx-1"></i>
+                </a>
+                <a href="#">
+                  <i class="bi bi-facebook text-dark mx-1"></i>
+                </a>
+                <a href="#">
+                  <i class="bi bi-linkedin text-dark mx-1"></i>
+                </a>
+                <a href="#">
+                  <i class="bi bi-instagram text-dark mx-1"></i>
+                </a>
+              </div>
             </div>
-
           </div>
-           <div class="col-md-6 col-lg-3">
+          <div class="col-md-6 col-lg-3">
             <div class="card bg-light">
               <div class="card-body text-center">
-                <img src="https://randomuser.me/api/portraits/women/14.jpg" alt="" class="rounded-circle mb-3">
+                <img
+                  src="https://randomuser.me/api/portraits/women/14.jpg"
+                  alt=""
+                  class="rounded-circle mb-3"
+                />
                 <h3 class="card-title mb-3">Barbi</h3>
-              <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio necessitatibus illo esse voluptate modi perferendis!
-              </p>
-              <a href="#">
-                <i class="bi bi-twitter text-dark mx-1"></i>
-              </a>
-               <a href="#">
-                <i class="bi bi-facebook text-dark mx-1"></i>
-              </a>
-               <a href="#">
-                <i class="bi bi-linkedin text-dark mx-1"></i>
-              </a>
-               <a href="#">
-                <i class="bi bi-instagram text-dark mx-1"></i>
-              </a>
-              </div >
-
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Optio necessitatibus illo esse voluptate modi perferendis!
+                </p>
+                <a href="#">
+                  <i class="bi bi-twitter text-dark mx-1"></i>
+                </a>
+                <a href="#">
+                  <i class="bi bi-facebook text-dark mx-1"></i>
+                </a>
+                <a href="#">
+                  <i class="bi bi-linkedin text-dark mx-1"></i>
+                </a>
+                <a href="#">
+                  <i class="bi bi-instagram text-dark mx-1"></i>
+                </a>
+              </div>
             </div>
-
           </div>
-           <div class="col-md-6 col-lg-3">
+          <div class="col-md-6 col-lg-3">
             <div class="card bg-light">
               <div class="card-body text-center">
-                <img src="https://randomuser.me/api/portraits/men/13.jpg" alt="" class="rounded-circle mb-3">
+                <img
+                  src="https://randomuser.me/api/portraits/men/13.jpg"
+                  alt=""
+                  class="rounded-circle mb-3"
+                />
                 <h3 class="card-title mb-3">Papa Fredy</h3>
-              <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio necessitatibus illo esse voluptate modi perferendis!
-              </p>
-               <a href="#">
-                <i class="bi bi-twitter text-dark mx-1"></i>
-              </a>
-               <a href="#">
-                <i class="bi bi-facebook text-dark mx-1"></i>
-              </a>
-               <a href="#">
-                <i class="bi bi-linkedin text-dark mx-1"></i>
-              </a>
-               <a href="#">
-                <i class="bi bi-instagram text-dark mx-1"></i>
-              </a>
-              </div >
-
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Optio necessitatibus illo esse voluptate modi perferendis!
+                </p>
+                <a href="#">
+                  <i class="bi bi-twitter text-dark mx-1"></i>
+                </a>
+                <a href="#">
+                  <i class="bi bi-facebook text-dark mx-1"></i>
+                </a>
+                <a href="#">
+                  <i class="bi bi-linkedin text-dark mx-1"></i>
+                </a>
+                <a href="#">
+                  <i class="bi bi-instagram text-dark mx-1"></i>
+                </a>
+              </div>
             </div>
-
           </div>
-            <div class="col-md-6 col-lg-3">
+          <div class="col-md-6 col-lg-3">
             <div class="card bg-light">
               <div class="card-body text-center">
-                <img src="https://randomuser.me/api/portraits/women/13.jpg" alt="" class="rounded-circle mb-3">
+                <img
+                  src="https://randomuser.me/api/portraits/women/13.jpg"
+                  alt=""
+                  class="rounded-circle mb-3"
+                />
                 <h3 class="card-title mb-3">Rick Mananga</h3>
-              <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio necessitatibus illo esse voluptate modi perferendis!
-              </p>
-               <a href="#">
-                <i class="bi bi-twitter text-dark mx-1"></i>
-              </a>
-               <a href="#">
-                <i class="bi bi-facebook text-dark mx-1"></i>
-              </a>
-               <a href="#">
-                <i class="bi bi-linkedin text-dark mx-1"></i>
-              </a>
-               <a href="#">
-                <i class="bi bi-instagram text-dark mx-1"></i>
-              </a>
-              </div >
-
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Optio necessitatibus illo esse voluptate modi perferendis!
+                </p>
+                <a href="#">
+                  <i class="bi bi-twitter text-dark mx-1"></i>
+                </a>
+                <a href="#">
+                  <i class="bi bi-facebook text-dark mx-1"></i>
+                </a>
+                <a href="#">
+                  <i class="bi bi-linkedin text-dark mx-1"></i>
+                </a>
+                <a href="#">
+                  <i class="bi bi-instagram text-dark mx-1"></i>
+                </a>
+              </div>
             </div>
-
           </div>
         </div>
       </div>
     </section>
+    <!--modal-->
 
+    <div
+      class="modal fade text-dark"
+      id="enroll"
+      tabindex="-1"
+      aria-labelledby="enrollLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="enrollLabel">Join the Community</h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
 
+          <div class="modal-body">
+            <p class="lead">Fill out this form and we will get back to you</p>
+            <form action="">
+              <div class="mb-3">
+                <label for="first-name" class="col-for-label">
+                  First Name:
+                </label>
+                <input type="text" class="form-control" id="first-name" />
+              </div>
+              <div class="mb-3">
+                <label for="last-name" class="col-for-label">
+                  Last Name:
+                </label>
+                <input type="text" class="form-control" id="last-name" />
+              </div>
+              <div class="mb-3">
+                <label for="email" class="col-for-label"> Email: </label>
+                <input type="text" class="form-control" id="email" />
+              </div>
+              <div class="mb-3">
+                <label for="phone" class="col-for-label"> Phone: </label>
+                <input type="text" class="form-control" id="phone" />
+              </div>
+            </form>
+          </div>
 
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+            <button type="button" class="btn btn-primary">Submit</button>
+          </div>
+        </div>
+      </div>
+    </div>
 
-
-
-
-
-
-     <!--footer-->
+    <!--footer-->
     <%- include('../layouts/footer')%>
 
     <!--bostrap and local js-->
-     <%- include('../layouts/script')%>
-
-  
+    <%- include('../layouts/script')%>
   </body>
 </html>
