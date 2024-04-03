@@ -2,7 +2,8 @@ const express = require('express');
 const path = require('path');
 const ejs = require('ejs');
 const mongoose = require('mongoose');
-mongoose.connect('mongodb://localhost/mydatabase', { useNewUrlParser: true })
+//this code is for connecting our to mongoDb from Node
+mongoose.connect('mongodb://localhost/my-database',{useNewUrlParser:true})
 
 const app = express();
 const port = 3000;
