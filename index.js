@@ -27,11 +27,12 @@ app.get('/news', (req, res) =>{
 app.get('/question', (req, res) =>{
   res.render('pages/question');
 })
-app.get('/notFound', (req, res) =>{
-  res.render('pages/notFound');
-})
+
 app.get('/post', (req, res) =>{
   res.render('pages/post');
+})
+app.use((req, res)=>{
+  res.status(404).render('pages/notFound')
 })
 
 
