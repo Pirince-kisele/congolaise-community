@@ -1,12 +1,27 @@
-const mongoose = require('mongoose');
+const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
-const blogPostSchema = new Schema({
-  name: String,
-  email: String,
-  title: String,
-  boby: String,
-  image: ImageBitmapRenderingContext,
-  video: VideoPlaybackQuality
-});
-const BlogPost = mongoose.model('BlogPost', blogPostSchema);
+const blogPostSchema = new Schema(
+  {
+    name: {
+      type: String,
+      required: true,
+    },
+    email: {
+      type: String,
+      required: true,
+    },
+    title: {
+      type: String,
+      required: true,
+    },
+    boby: {
+      type: String,
+      required: true,
+    },
+    image: ImageBitmapRenderingContext,
+    video: VideoPlaybackQuality,
+  },
+  { timestamps: true },
+);
+const BlogPost = mongoose.model("BlogPost", blogPostSchema);
 module.exports = BlogPost;
