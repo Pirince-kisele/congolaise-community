@@ -8,7 +8,6 @@ const blogPostSchema = new Schema(
     },
     email: {
       type: String,
-      required: true,
     },
     title: {
       type: String,
