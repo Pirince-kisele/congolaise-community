@@ -6,14 +6,11 @@
      height: 60px;
   }
 body{color:white}
-/* #bgImg{
-   width: 100%;
-   height: 500px;
-   background-image: url("/images/build_community.png");
-   background-position: 100% 100%;
-   background-size:cover;
-   object-fit: cover;
+#bg{
+   background-image: url("https://img.freepik.com/free-vector/dynamic-wavy-background-design_1055-2895.jpg?size=626&ext=jpg&ga=GA1.1.722360926.1712360277&semt=sph");
+   background-position: "center";
+   background-size:"cove";
+   background-repeat: repeat;
   
-   opacity: 1;
-} */
+}
 

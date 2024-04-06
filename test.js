@@ -3,7 +3,7 @@ const blogPost = require('./models/blogPosts')
 const { error } = require('console')
 const { title } = require('process')
 
-mongoose.connect('mongodb://localhost/my_database', {useNewUrlParser:true})
+//mongoose.connect('mongodb://localhost/my_database', {useNewUrlParser:true})
 const data = {
    title:'my name is pirince kisele liyo this is the title for my post',
       boby: 'this is my first time trying to creeate a web site with the posting fonctionality using node js and mongoDB and this is just a simple test that i am posting right now maye later then i will do bettre then this time'

@@ -3,7 +3,7 @@ const path = require("path");
 const ejs = require("ejs");
 const mongoose = require("mongoose");
 //this code is for connecting our to mongoDb from Node
-mongoose.connect("mongodb://localhost/my-database", { useNewUrlParser: true });
+//mongoose.connect("mongodb://localhost/my-database", { useNewUrlParser: true });
 
 const app = express();
 const port = 3000;
