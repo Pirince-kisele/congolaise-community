@@ -9,11 +9,11 @@ const data = {
       boby: 'this is my first time trying to creeate a web site with the posting fonctionality using node js and mongoDB and this is just a simple test that i am posting right now maye later then i will do bettre then this time'
 
 }
-// this is how to create a data in mongo database
-// blogPost.create(data).then(() => {
-//   console.log('connected Successfully')
-// })
-// .catch((err) => {
-//   console.error(err);
-// })
+//this is how to create a data in mongo database
+blogPost.create(data).then(() => {
+  console.log('connected Successfully')
+})
+.catch((err) => {
+  console.error(err);
+})
 
