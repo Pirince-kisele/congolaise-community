@@ -10,7 +10,8 @@ const data = {
 
 }
 //this is how to create a data in mongo database
-blogPost.create(data).then(() => {
+blogPost.create(data)
+.then(() => {
   console.log('connected Successfully')
 })
 .catch((err) => {
